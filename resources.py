@@ -92,6 +92,10 @@ def graphics(original,target,donor):
                 output.write(blocks[row*3840:(row+1)*3840])
 
 def launcher(target):
+    bundled = ROOT / "tools" / "EnglishLauncher.exe"
+    if bundled.is_file():
+        shutil.copyfile(bundled, target)
+        return
     csc=Path(os.environ["WINDIR"])/"Microsoft.NET/Framework64/v4.0.30319/csc.exe"
     subprocess.run([str(csc),"/nologo","/target:winexe","/optimize+","/utf8output",
                     "/r:System.Windows.Forms.dll","/r:System.Drawing.dll","/r:System.Core.dll",

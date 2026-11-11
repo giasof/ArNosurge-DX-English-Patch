@@ -77,7 +77,8 @@ def restore(game,folder,active,items):
 def program(arg,name):
     resolved=Path(arg).expanduser().resolve() if arg else None
     if not resolved:
-        found=shutil.which(name)
+        bundled = ROOT / "tools" / ("ffmpeg" if name == "ffmpeg.exe" else "gust") / name
+        found = bundled if bundled.is_file() else shutil.which(name)
         if found:resolved=Path(found).resolve()
     if not resolved or not resolved.is_file():raise ValueError(f"Required tool: {name}. See README.")
     return resolved
