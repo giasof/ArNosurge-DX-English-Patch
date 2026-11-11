@@ -42,6 +42,8 @@ From the extracted portable folder, substitute your own paths.
 
 ## Package contents and credits
 
+**giasof** leads the project and tested the English menus, Xbox controls and cinematics in game. **OpenAI Codex** contributed as an AI coding assistant, developing the patch and portable installer and testing installation and restoration.
+
 The release ZIP contains the patch instructions, timed subtitles and lettering masks, English launcher, Windows installer and the tools they use. The installer reads game files, artwork and movie streams from local game copies. The repository also contains the installer and launcher sources. [Portable tool versions, licenses and build instructions](third_party/PORTABLE.md)
 
 The Gust XML codec comes from the Ar nosurge DX Korean translation project. Its original license is in `third_party/LICENSE-gust-xml.txt`. Ar nosurge and its original materials belong to their respective owners. [XML codec source](https://github.com/TAMTAMQ/Ar-nosurge-korean-translation-patch/blob/3b6cd6e469177edf39b44ca7091aa4c6d339dc6a/tools/decode_saves_xml_e.py)

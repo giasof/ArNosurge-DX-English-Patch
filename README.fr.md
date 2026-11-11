@@ -12,3 +12,5 @@ La version portable fonctionne hors ligne sur Windows 10 et 11 64 bits. Tous les
 **Restore originals** restaure les fichiers d’origine depuis `ArnosurgeDX-patch-backup`. Conserve ce dossier. Si tu as déjà appliqué la v1.0.0, tu peux garder ton installation. La version portable reconnaît les fichiers et la sauvegarde créés par l’ancien installateur.
 
 Certaines répliques propres à DX restent en japonais. Les écrans verrouillés ont été contrôlés dans les ressources du jeu. Leur rendu reste à confirmer en partie. Les empreintes compatibles, les commandes d’installation et les crédits figurent dans le [README principal](README.md).
+
+**giasof** pilote le projet et a testé en jeu les menus anglais, les commandes Xbox et les cinématiques. **OpenAI Codex** a contribué en tant qu’assistant de développement IA à la création du patch et de l’installateur portable, ainsi qu’aux tests d’installation et de restauration.
