@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.PAK
+*.pak
+*.wmv
+*.pam
+*.g1t
+*.dds
+*.elf
+*.pdb
+*.dll
+*.exe
+!tools/write_movie.exe
+ArnosurgeDX-patch-backup/

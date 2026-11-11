@@ -1,0 +1,47 @@
+{
+  "ArnosurgeDX.exe": {
+    "original": "76e316b03ce7cf865fc98efd4e1824b95fcf2b6df122c9e5d7b88ced7b4c2474",
+    "reference": "de9281cd7fe1d375305a70559d77885761f1cd60f914d8a4cbf7409c656cdc37"
+  },
+  "ArnosurgeDX_Launcher.exe": {
+    "original": "4fdc84270c636bf014d984e8e71485cd52043a6968b83343ccb1ea6a0e8e1f4b",
+    "reference": "7a85875abb97d66ca242c79ff72892ff511cc0323ffcadd611c813c7f9b29945"
+  },
+  "ArnosurgeDX_Env.exe": {
+    "original": "e2da9f473c2fae0eb9f08dacba5d7df06ae48c235bebec2347de6ac13cac50ba",
+    "reference": "7a85875abb97d66ca242c79ff72892ff511cc0323ffcadd611c813c7f9b29945"
+  },
+  "Data/PACK00_01.PAK": {
+    "original": "1f5cceaebc5e58556af559d42db7bb65d142fd646b31b5487b5cc1ab394f7068",
+    "reference": "0ddc952d989ae3c954f24d788cba5ba24140052732f476224fd69b05342e0f51"
+  },
+  "Data/PACK01.PAK": {
+    "original": "0e020a65fcfe9eee4d280fcbb7a6017e76e0eb6065bfc9a32d8bdf82f6b31e43",
+    "reference": "b9d338d0834c4367702cbc8276f6eb6d4c9b3ac93417df16bcc57489590ce9f0"
+  },
+  "Data/PACK02.PAK": {
+    "original": "50b63ceee057321b9ee86b174c9e14aa5c90042d8f984d5cbfc2d2a330acc623",
+    "reference": "93614f20e5b06f801b253f9ffad356892ef6f0db5ee3f6c1fab199a75cf48235"
+  },
+  "Data/x64/Movie/opening.wmv": {
+    "original": "ddbc3809a90cb280049df120e2d1efe46f5e789d86addf5917efe2921796a8c3"
+  },
+  "Data/x64/Movie/prologue.wmv": {
+    "original": "47f51de4adbbdbb294d4854656100997495cf51d0bef2c3ce73a68aebf9db857"
+  },
+  "Data/x64/Movie/seq02.wmv": {
+    "original": "37e2e293827fb0d2401da3d1bd5add3d7fca9a931366cb8c20f527f5e207cad0"
+  },
+  "Data/x64/Movie/seq03.wmv": {
+    "original": "88bdf64e89ee1b8d2045d3daa6b952c955075c4fe6ea557c70a5aa952dea2ecd"
+  },
+  "Data/x64/Movie/seq04.wmv": {
+    "original": "a9304a9276001a2f42187e42abadc67c2518afb2160472156d9e06a138f005ba"
+  },
+  "Data/x64/Movie/seq05.wmv": {
+    "original": "b021c6b3b3adf181c15529fc45a69777a068539d83182f2d7f48fedb0266fb24"
+  },
+  "Data/x64/Movie/tm_felion_D.wmv": {
+    "original": "7d438c26274a8455529f5d1da5277ea929914132c669f10b6bcdbc500f26cf48"
+  }
+}

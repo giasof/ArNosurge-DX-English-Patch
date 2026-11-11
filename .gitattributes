@@ -1,0 +1,7 @@
+* text=auto
+*.adp binary
+*.xz binary
+*.png binary
+*.exe binary
+*.cmd text eol=crlf
+*.ass -text whitespace=cr-at-eol
