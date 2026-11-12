@@ -64,7 +64,9 @@ def restore(game,folder,active,items):
     for rel,new in items.items():
         original=FILES[rel]["original"]
         require_hash(safepath(folder,rel),original)
-        if digest(safepath(game,rel)) not in (new,original):
+        # During an interrupted upgrade, an entry not yet replaced can
+        # still contain the prior release recorded in installed.json.
+        if digest(safepath(game,rel)) not in (new,original,active.get(rel)):
             raise ValueError(f"File changed outside this installer: {rel}")
     write_json(folder/"pending.json",items)
     for rel in items:
@@ -83,8 +85,7 @@ def program(arg,name):
     if not resolved or not resolved.is_file():raise ValueError(f"Required tool: {name}. See README.")
     return resolved
 
-def prepare(a,rel,target,root,stage):
-    original=a.game/rel
+def prepare(a,rel,original,target,root,stage):
     if rel=="ArnosurgeDX.exe":
         target.write_bytes(apply_delta(original.read_bytes(),(PATCH/"program.adp").read_bytes()))
     elif rel.endswith("_Launcher.exe"):
@@ -118,11 +119,13 @@ def main(a):
         for rel,meta in FILES.items():
             p=safepath(a.game,rel);h=digest(p) if p.is_file() else ""
             if rel in active:
-                state="installed" if h==active[rel] else "modified after installation"
+                if h!=active[rel]:state="modified after installation"
+                elif h in meta.get("previous",[]):state="update available"
+                else:state="installed"
             elif h==meta["original"]:state="original"
             elif h==meta.get("reference"):state="previously patched"
             else:state="missing or unsupported version"
-            print(f"{state:32} {rel}");ok &= state in ("installed","original","previously patched")
+            print(f"{state:32} {rel}");ok &= state in ("installed","original","previously patched","update available")
         return 0 if ok else 1
     require_closed()
     with lock(folder):
@@ -137,6 +140,7 @@ def main(a):
             target=safepath(a.game,rel)
             if rel in active:
                 require_hash(target,active[rel]);require_hash(safepath(folder,rel),FILES[rel]["original"])
+                if active[rel] in FILES[rel].get("previous",[]):needed.append(rel)
             else:
                 require_hash(target,FILES[rel]["original"]);needed.append(rel)
         if not needed:
@@ -158,7 +162,8 @@ def main(a):
             for rel in needed:
                 print(f"Building {rel}",flush=True)
                 target=stage/rel;target.parent.mkdir(parents=True,exist_ok=True)
-                changed[rel]=prepare(a,rel,target,donor,stage)
+                original=safepath(folder if rel in active else a.game,rel)
+                changed[rel]=prepare(a,rel,original,target,donor,stage)
             for rel in needed:
                 backup=safepath(folder,rel);expected=FILES[rel]["original"]
                 if backup.exists():require_hash(backup,expected)
@@ -168,7 +173,7 @@ def main(a):
             try:
                 for rel,new in changed.items():
                     target=safepath(a.game,rel)
-                    require_hash(target,FILES[rel]["original"])
+                    require_hash(target,active.get(rel,FILES[rel]["original"]))
                     os.replace(stage/rel,target);require_hash(target,new)
                 write_json(folder/"installed.json",dict(active,**changed))
                 (folder/"pending.json").unlink()

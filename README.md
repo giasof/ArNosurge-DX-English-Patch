@@ -17,7 +17,9 @@ The portable ZIP includes everything the patch needs on a standard Windows 10 or
 3. Under **US PS3 folder (main patch)**, select the extracted US PS3 game, then click **Install patch**. When Setup reports **Done**, open the game launcher and click **Play**. **Settings** includes borderless fullscreen, a 100–200% rendering scale and the Xbox confirm/back preference.
 4. For English movie subtitles, select **Subtitle movies**. Only the DX folder is needed. Leave Setup open while it rebuilds the seven 1080p videos. The window displays progress.
 
-If the previous release is installed, the new portable Setup recognizes its backup and installed files. An already patched game needs no reinstall to use this release.
+**Upgrading from v1.0.0 or v1.1.0**
+
+Keep `ArnosurgeDX-patch-backup` in the game folder. Open the new **Setup.exe**, select the same DX and US PS3 folders, and click **Install patch**. **Check files** shows **update available** for the game program and interface archive before the upgrade. Previously subtitled movies stay installed.
 
 The installer verifies source hashes and stages replacements before applying them. It saves the originals in `ArnosurgeDX-patch-backup` inside the game folder. Keep that folder. Click **Restore originals** to restore the files installed by this patch. After an interruption, rerun the installer to recover from its journal. Game progress and save slots are outside the installer's file list.
 
@@ -25,9 +27,16 @@ The installer verifies source hashes and stages replacements before applying the
 
 - The dialogue patch reads 46,887 changed lines from matching PS3 records and applies DX-specific line wrapping. Some DX-only dialogue has no US PS3 counterpart and remains Japanese.
 - The patch covers inventory, equipment, status, encyclopedia, battle results, synthesis, purification, history and other menu resources. It rebuilds 50 tutorial illustrations locally and adjusts the layout of entries unlocked later in the game.
+- Version 1.2.0 translates Cass and Ion’s battle callouts, Song Magic affinities and availability, and the Cast Song command menu. It also fixes line breaks in 81 tutorial and system messages.
+- On an Xbox controller, **A** activates the bottom command (including **Stampede**) and **B** guards during the enemy turn. The command icons match both at rest and when highlighted. The launcher’s confirm/back setting applies to menus.
+- The mouse pointer hides while the game window is active and returns when you switch applications or minimize the game.
 - English subtitles cover `opening`, `prologue`, `tm_felion_D` and `seq02` through `seq05`. The installer checks stream profiles, frame counts, timestamps and original compressed audio after encoding.
 - The game program and both data archives have reference SHA-256 hashes. The graphics archive also matched its reference in testing. Fonts, Windows components and encoder versions can affect the bytes of locally rendered files. The installer records their actual hashes for verification and restoration.
 - All source hashes are listed in `patch/files.json`. A hash mismatch reports an unsupported or modified installation. The patch is version-specific. Some locked screens have been checked from their resources and still need visual testing in gameplay.
+
+## Special K users
+
+If a **Missing interface** dialog mentioning **SteamInput007** appears with Special K active, close the game and open its existing Special K profile at `Profiles/ArnosurgeDX.exe/SpecialK.ini`. Under `[Steam.Log]`, set `Silent=true`, then relaunch the game.
 
 ## Command line
 

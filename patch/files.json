@@ -1,7 +1,10 @@
 {
   "ArnosurgeDX.exe": {
     "original": "76e316b03ce7cf865fc98efd4e1824b95fcf2b6df122c9e5d7b88ced7b4c2474",
-    "reference": "de9281cd7fe1d375305a70559d77885761f1cd60f914d8a4cbf7409c656cdc37"
+    "reference": "e7402bc5bc86a1701ffce7cd67bf74516022ace990663f6b7a930bd9fff21357",
+    "previous": [
+      "de9281cd7fe1d375305a70559d77885761f1cd60f914d8a4cbf7409c656cdc37"
+    ]
   },
   "ArnosurgeDX_Launcher.exe": {
     "original": "4fdc84270c636bf014d984e8e71485cd52043a6968b83343ccb1ea6a0e8e1f4b",
@@ -21,7 +24,10 @@
   },
   "Data/PACK02.PAK": {
     "original": "50b63ceee057321b9ee86b174c9e14aa5c90042d8f984d5cbfc2d2a330acc623",
-    "reference": "93614f20e5b06f801b253f9ffad356892ef6f0db5ee3f6c1fab199a75cf48235"
+    "reference": "c8148fb87e6f8ac3581261a37ed43d12e728c3dca00dadf86bd539dd38b9b727",
+    "previous": [
+      "93614f20e5b06f801b253f9ffad356892ef6f0db5ee3f6c1fab199a75cf48235"
+    ]
   },
   "Data/x64/Movie/opening.wmv": {
     "original": "ddbc3809a90cb280049df120e2d1efe46f5e789d86addf5917efe2921796a8c3"
