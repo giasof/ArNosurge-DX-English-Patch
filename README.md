@@ -17,10 +17,6 @@ The portable ZIP includes everything the patch needs on a standard Windows 10 or
 3. Under **US Vita Plus folder (PCSE00707)**, select your extracted US Vita game, then click **Install patch**. When Setup reports **Done**, open the game launcher and click **Play**. **Settings** includes borderless fullscreen, a 100–200% rendering scale and the Xbox confirm/back preference.
 4. For English movie subtitles, select **Subtitle movies**. Only the DX folder is needed. Leave Setup open while it rebuilds the seven 1080p videos. The window displays progress.
 
-**Upgrading from v1.0.0 through v1.2.0**
-
-Keep `ArnosurgeDX-patch-backup` in the game folder. Open the new **Setup.exe**, select the same DX folder and the US Vita Plus folder, and click **Install patch**. **Check files** shows **update available** for the files that need rebuilding. Previously subtitled movies stay installed.
-
 The installer verifies source hashes and stages replacements before applying them. It saves the originals in `ArnosurgeDX-patch-backup` inside the game folder. Keep that folder. Click **Restore originals** to restore the files installed by this patch. After an interruption, rerun the installer to recover from its journal. Game progress and save slots are outside the installer's file list.
 
 ## Coverage and compatibility
@@ -28,7 +24,7 @@ The installer verifies source hashes and stages replacements before applying the
 - Version 1.3.0 reads 51,854 dialogue records from US Vita Plus across 2,241 event files. It keeps the DX event headers and adapts line breaks to the PC font. An additional 65 records already match DX.
 - All three extra purification partners are included. Shurelia, Nelo and Sarly have 49 conversations each, plus six introduction scenes between them. Hardware-specific tutorial lines use DX controller prompts. Shared tutorial illustrations come from the Vita archive, and PC-specific instructional cards are rebuilt for DX.
 - The patch covers inventory, equipment, status, encyclopedia, battle results, synthesis, purification, history and other menu resources. It rebuilds 50 tutorial illustrations locally and adjusts the layout of entries unlocked later in the game.
-- Version 1.2.0 translates Cass and Ion’s battle callouts, Song Magic affinities and availability, and the Cast Song command menu. It also fixes line breaks in 81 tutorial and system messages.
+- The patch translates Cass and Ion’s battle callouts, Song Magic affinities and availability, and the Cast Song command menu. It also fixes line breaks in 81 tutorial and system messages.
 - On an Xbox controller, **A** activates the bottom command (including **Stampede**) and **B** guards during the enemy turn. The command icons match both at rest and when highlighted. The launcher’s confirm/back setting applies to menus.
 - The mouse pointer hides while the game window is active and returns when you switch applications or minimize the game.
 - English subtitles cover `opening`, `prologue`, `tm_felion_D` and `seq02` through `seq05`. The installer checks stream profiles, frame counts, timestamps and original compressed audio after encoding.
