@@ -7,12 +7,19 @@ import shutil
 import subprocess
 import sys
 import tempfile
-from contextlib import contextmanager
+from contextlib import contextmanager, ExitStack
 from patchlib import ROOT, apply_delta, digest
 from resources import PATCH, archive, graphics, launcher, manifest, require_hash
 
 FILES = manifest("files.json")
 BACKUP = "ArnosurgeDX-patch-backup"
+GRAPHICS = "Data/PACK00_01.PAK"
+
+def needs_update(folder, rel, installed_hash):
+    if rel == GRAPHICS:
+        marker = folder / "vita-graphics.json"
+        return not marker.exists() or json.loads(marker.read_text("utf8")) != installed_hash
+    return installed_hash in FILES[rel].get("previous", [])
 
 def write_json(path, value):
     temp=path.with_suffix(".new")
@@ -94,7 +101,7 @@ def prepare(a,rel,original,target,root,stage):
         launch=stage/"ArnosurgeDX_Launcher.exe"
         if launch.exists():shutil.copyfile(launch,target)
         else:launcher(target)
-    elif rel.endswith("PACK00_01.PAK"):graphics(original,target,root)
+    elif rel==GRAPHICS:graphics(original,target,root,a.texture_tool)
     elif rel.endswith(".PAK"):archive(original,target,root,a.gust)
     else:
         from movies import render
@@ -120,7 +127,7 @@ def main(a):
             p=safepath(a.game,rel);h=digest(p) if p.is_file() else ""
             if rel in active:
                 if h!=active[rel]:state="modified after installation"
-                elif h in meta.get("previous",[]):state="update available"
+                elif needs_update(folder,rel,h):state="update available"
                 else:state="installed"
             elif h==meta["original"]:state="original"
             elif h==meta.get("reference"):state="previously patched"
@@ -128,31 +135,33 @@ def main(a):
             print(f"{state:32} {rel}");ok &= state in ("installed","original","previously patched","update available")
         return 0 if ok else 1
     require_closed()
-    with lock(folder):
+    with lock(folder), ExitStack() as opened:
         active=read_state(folder/"installed.json")
         pending=read_state(folder/"pending.json")
         if pending:restore(a.game,folder,active,pending)
         if a.action=="restore":
             if active:restore(a.game,folder,active,active.copy())
+            (folder/"vita-graphics.json").unlink(missing_ok=True)
             print("Original files restored.");return 0
         needed=[]
         for rel in relevant:
             target=safepath(a.game,rel)
             if rel in active:
                 require_hash(target,active[rel]);require_hash(safepath(folder,rel),FILES[rel]["original"])
-                if active[rel] in FILES[rel].get("previous",[]):needed.append(rel)
+                if needs_update(folder,rel,active[rel]):needed.append(rel)
             else:
                 require_hash(target,FILES[rel]["original"]);needed.append(rel)
         if not needed:
             print("Already installed.");return 0
         donor=None
         if a.action=="install":
-            if not a.ps3:raise ValueError("Supply --ps3 with the US PS3 game folder.")
-            base=a.ps3.expanduser().resolve()
-            donor=next((p for p in (base,base/"USRDIR",base/"PS3_GAME/USRDIR")
-                        if (p/"Event/event").is_dir()),None)
-            if donor is None:raise ValueError("PS3_GAME/USRDIR/Event/event was not found.")
+            from vita import VitaArchive
+            if not a.vita:raise ValueError("Supply --vita with the US Vita Plus folder (PCSE00707).")
+            print("Checking US Vita Plus archive...",flush=True)
+            donor=VitaArchive(a.vita)
+            opened.callback(donor.close)
             a.gust=program(a.gust,"gust_pak.exe")
+            if GRAPHICS in needed:a.texture_tool=program(a.gust.with_name("gust_g1t.exe"),"gust_g1t.exe")
             from PIL import Image
         else:
             a.ffmpeg=program(a.ffmpeg,"ffmpeg.exe")
@@ -176,6 +185,7 @@ def main(a):
                     require_hash(target,active.get(rel,FILES[rel]["original"]))
                     os.replace(stage/rel,target);require_hash(target,new)
                 write_json(folder/"installed.json",dict(active,**changed))
+                if GRAPHICS in changed:write_json(folder/"vita-graphics.json",changed[GRAPHICS])
                 (folder/"pending.json").unlink()
             except BaseException:
                 restore(a.game,folder,active,changed);raise
@@ -185,7 +195,7 @@ if __name__=="__main__":
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("action",choices=["check","install","movies","restore"])
     parser.add_argument("--game",type=Path,required=True)
-    parser.add_argument("--ps3",type=Path)
+    parser.add_argument("--vita",type=Path)
     parser.add_argument("--gust",help="Path to gust_pak.exe")
     parser.add_argument("--ffmpeg",help="Path to ffmpeg.exe")
     try:sys.exit(main(parser.parse_args()))

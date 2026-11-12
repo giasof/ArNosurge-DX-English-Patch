@@ -24,22 +24,24 @@ def archive(package, target, donor, tool):
         if package.stem.upper()=="PACK01":
             edits=json.loads(lzma.decompress((PATCH/"lines.json.xz").read_bytes()))
             for rel,(original,rules) in edits.items():
-                src=donor/"Event/event"/rel
-                if original:require_hash(src,original)
+                src=donor.read("event/event/"+rel) if original else None
+                if original and hashlib.sha256(src).hexdigest()!=original:
+                    raise ValueError(f"Incorrect Vita dialogue: {rel}")
                 f=d/"event/event"/rel
-                f.write_bytes(dialogue(f.read_bytes(),src.read_bytes() if original else None,rules))
+                f.write_bytes(dialogue(f.read_bytes(),src,rules,rel))
         else:
-            from third_party.gust_xml import decode_file,encode_file,detect_text_encoding
-            def xml(p):
-                data=decode_file(p) if p.suffix==".e" else p.read_bytes()
+            from third_party.gust_xml import descramble,unglaze,encode_file,detect_text_encoding
+            def xml(data,rel):
+                if rel.endswith(".e"):data=unglaze(descramble(data))
                 return data.decode(detect_text_encoding(data)).encode("utf8")
             for rel,encoding,original,patch in manifest("ui.json"):
                 f=d/"saves"/rel
-                base=xml(f)
+                base=xml(f.read_bytes(),rel)
                 if original:
-                    src=donor/"Saves"/rel
-                    require_hash(src,original)
-                    base+=xml(src)
+                    src=donor.read("saves/"+rel)
+                    if hashlib.sha256(src).hexdigest()!=original:
+                        raise ValueError(f"Incorrect Vita menu: {rel}")
+                    base+=xml(src,rel)
                 result=apply_delta(base,(PATCH/patch).read_bytes()).decode("utf8").encode(encoding)
                 f.write_bytes(encode_file(result) if f.suffix==".e" else result)
         index=local.with_suffix(".json")
@@ -61,10 +63,10 @@ def picture(asset,height):
     im=Image.open(io.BytesIO(header+asset[56:])).convert("RGBA")
     return im.crop(im.getchannel("A").getbbox())
 
-def graphics(original,target,donor):
+def graphics(original,target,donor,texture_tool):
     from tutorials import exclusive,shared
     shutil.copyfile(original,target)
-    with target.open("r+b") as output:
+    with tempfile.TemporaryDirectory(dir=target.parent) as temp, target.open("r+b") as output:
         for name,offset,size,mode,donor_hash in manifest("graphics.json"):
             output.seek(offset)
             if mode=="atlas":
@@ -78,9 +80,16 @@ def graphics(original,target,donor):
             asset=output.read(size)
             image=picture(asset,2048).convert("RGB")
             if mode=="shared":
-                source=donor/"Data/PS3/Ipu"/(name+".g1t")
+                from PIL import Image
+                source=Path(temp)/(name+".g1t")
+                source.write_bytes(donor.read("data/psvita/ipu/"+source.name))
                 require_hash(source,donor_hash)
-                shared(name,image,picture(source.read_bytes(),1024))
+                subprocess.run([str(texture_tool),str(source)],cwd=temp,stdout=subprocess.DEVNULL,check=True)
+                with Image.open(source.with_suffix("")/"000.dds") as decoded:
+                    native=decoded.convert("RGBA")
+                native=native.crop(native.getchannel("A").getbbox())
+                if native.size!=(960,544):raise ValueError(f"Unexpected Vita tutorial dimensions: {name}")
+                shared(name,image,native)
             else:exclusive(name,image)
             if image.size!=(1920,1080):raise ValueError("Unexpected DX image size")
             packed=io.BytesIO()

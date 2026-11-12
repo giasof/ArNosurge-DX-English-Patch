@@ -16,17 +16,24 @@
   },
   "Data/PACK00_01.PAK": {
     "original": "1f5cceaebc5e58556af559d42db7bb65d142fd646b31b5487b5cc1ab394f7068",
-    "reference": "0ddc952d989ae3c954f24d788cba5ba24140052732f476224fd69b05342e0f51"
+    "reference": "1405c0cecd99e3152edd790119f634c4c956052ca313a47c2dce91e325ad43b0",
+    "previous": [
+      "0ddc952d989ae3c954f24d788cba5ba24140052732f476224fd69b05342e0f51"
+    ]
   },
   "Data/PACK01.PAK": {
     "original": "0e020a65fcfe9eee4d280fcbb7a6017e76e0eb6065bfc9a32d8bdf82f6b31e43",
-    "reference": "b9d338d0834c4367702cbc8276f6eb6d4c9b3ac93417df16bcc57489590ce9f0"
+    "reference": "d7e23571a25bdf7a6062c82926a7b712a071a60abc2ca613434dc7e6adeca897",
+    "previous": [
+      "b9d338d0834c4367702cbc8276f6eb6d4c9b3ac93417df16bcc57489590ce9f0"
+    ]
   },
   "Data/PACK02.PAK": {
     "original": "50b63ceee057321b9ee86b174c9e14aa5c90042d8f984d5cbfc2d2a330acc623",
-    "reference": "c8148fb87e6f8ac3581261a37ed43d12e728c3dca00dadf86bd539dd38b9b727",
+    "reference": "bcfc1dda97ae1a9cbe4f010015ec9849e0797eff295b7886e953b59f38c9cf73",
     "previous": [
-      "93614f20e5b06f801b253f9ffad356892ef6f0db5ee3f6c1fab199a75cf48235"
+      "93614f20e5b06f801b253f9ffad356892ef6f0db5ee3f6c1fab199a75cf48235",
+      "c8148fb87e6f8ac3581261a37ed43d12e728c3dca00dadf86bd539dd38b9b727"
     ]
   },
   "Data/x64/Movie/opening.wmv": {

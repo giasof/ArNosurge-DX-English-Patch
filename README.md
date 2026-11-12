@@ -1,12 +1,12 @@
 # Ar nosurge DX English Patch
 
-An unofficial English localization patch for **Ar nosurge: Ode to an Unborn Star DX** on Windows. It imports dialogue and artwork from your US PS3 copy, adds an English launcher, and corrects Xbox button prompts and menu layout. Seven DX cinematics can also be rebuilt with English subtitles.
+An unofficial English localization patch for **Ar nosurge: Ode to an Unborn Star DX** on Windows. It imports dialogue and artwork from your US Vita Plus copy, adds an English launcher, and corrects Xbox button prompts and menu layout. Seven DX cinematics can also be rebuilt with English subtitles.
 
 **[Download the portable Windows x64 ZIP](https://github.com/giasof/ArNosurge-DX-English-Patch/releases/latest/download/ArNosurge-DX-English-Patch-Windows-x64.zip)** · [Instructions en français](README.fr.md)
 
 ## Before you start
 
-You need an unmodified, compatible Japanese Windows installation of DX and an extracted US PS3 copy (BLUS31478) for the main patch. The PS3 folder must have `Event`, `Saves` and `Data` directories inside `PS3_GAME/USRDIR`. You can also select `USRDIR` directly. The optional movie installer reads the original DX videos.
+You need a compatible Japanese Windows installation of DX and a readable US Vita copy of **Ar nosurge Plus** (PCSE00707). Select the Vita folder containing `Data/PSVita/resources1.psarc`, or the folder containing the archive itself. An installed Vita3K app can be found under `ux0/app/PCSE00707` in its storage folder. Setup checks the archive before building any game files. Encrypted Vita backups must first be exported in readable form. The optional movie installer reads the original DX videos.
 
 The portable ZIP includes everything the patch needs on a standard Windows 10 or 11 x64 installation. Setup works offline. The optional movies use Windows Media components. Windows N editions need the Windows Media Feature Pack for that option.
 
@@ -14,18 +14,19 @@ The portable ZIP includes everything the patch needs on a standard Windows 10 or
 
 1. Extract the entire **ArNosurge-DX-English-Patch-Windows-x64.zip** to its own folder, close the game and its launcher, and open **Setup.exe**.
 2. Under **Windows DX folder**, select the folder containing `ArnosurgeDX.exe`. **Check files** verifies the installation.
-3. Under **US PS3 folder (main patch)**, select the extracted US PS3 game, then click **Install patch**. When Setup reports **Done**, open the game launcher and click **Play**. **Settings** includes borderless fullscreen, a 100–200% rendering scale and the Xbox confirm/back preference.
+3. Under **US Vita Plus folder (PCSE00707)**, select your extracted US Vita game, then click **Install patch**. When Setup reports **Done**, open the game launcher and click **Play**. **Settings** includes borderless fullscreen, a 100–200% rendering scale and the Xbox confirm/back preference.
 4. For English movie subtitles, select **Subtitle movies**. Only the DX folder is needed. Leave Setup open while it rebuilds the seven 1080p videos. The window displays progress.
 
-**Upgrading from v1.0.0 or v1.1.0**
+**Upgrading from v1.0.0 through v1.2.0**
 
-Keep `ArnosurgeDX-patch-backup` in the game folder. Open the new **Setup.exe**, select the same DX and US PS3 folders, and click **Install patch**. **Check files** shows **update available** for the game program and interface archive before the upgrade. Previously subtitled movies stay installed.
+Keep `ArnosurgeDX-patch-backup` in the game folder. Open the new **Setup.exe**, select the same DX folder and the US Vita Plus folder, and click **Install patch**. **Check files** shows **update available** for the files that need rebuilding. Previously subtitled movies stay installed.
 
 The installer verifies source hashes and stages replacements before applying them. It saves the originals in `ArnosurgeDX-patch-backup` inside the game folder. Keep that folder. Click **Restore originals** to restore the files installed by this patch. After an interruption, rerun the installer to recover from its journal. Game progress and save slots are outside the installer's file list.
 
 ## Coverage and compatibility
 
-- The dialogue patch reads 46,887 changed lines from matching PS3 records and applies DX-specific line wrapping. Some DX-only dialogue has no US PS3 counterpart and remains Japanese.
+- Version 1.3.0 reads 51,854 dialogue records from US Vita Plus across 2,241 event files. It keeps the DX event headers and adapts line breaks to the PC font. An additional 65 records already match DX.
+- All three extra purification partners are included. Shurelia, Nelo and Sarly have 49 conversations each, plus six introduction scenes between them. Hardware-specific tutorial lines use DX controller prompts. Shared tutorial illustrations come from the Vita archive, and PC-specific instructional cards are rebuilt for DX.
 - The patch covers inventory, equipment, status, encyclopedia, battle results, synthesis, purification, history and other menu resources. It rebuilds 50 tutorial illustrations locally and adjusts the layout of entries unlocked later in the game.
 - Version 1.2.0 translates Cass and Ion’s battle callouts, Song Magic affinities and availability, and the Cast Song command menu. It also fixes line breaks in 81 tutorial and system messages.
 - On an Xbox controller, **A** activates the bottom command (including **Stampede**) and **B** guards during the enemy turn. The command icons match both at rest and when highlighted. The launcher’s confirm/back setting applies to menus.
@@ -44,7 +45,7 @@ From the extracted portable folder, substitute your own paths.
 
 ```powershell
 .\Setup.cmd check --game "D:\Games\ArnosurgeDX"
-.\Setup.cmd install --game "D:\Games\ArnosurgeDX" --ps3 "D:\Games\BLUS31478"
+.\Setup.cmd install --game "D:\Games\ArnosurgeDX" --vita "D:\Games\PCSE00707"
 .\Setup.cmd movies --game "D:\Games\ArnosurgeDX"
 .\Setup.cmd restore --game "D:\Games\ArnosurgeDX"
 ```

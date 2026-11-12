@@ -18,9 +18,9 @@ def main():
         if not game:return 0
         args=[action,"--game",game]
         if action=="install":
-            donor=filedialog.askdirectory(title="US PS3 game / Dossier de la version PS3 américaine",mustexist=True)
+            donor=filedialog.askdirectory(title="US Vita Plus (PCSE00707) / Dossier de la version Vita américaine",mustexist=True)
             if not donor:return 0
-            args.extend(("--ps3",donor))
+            args.extend(("--vita",donor))
         if action in ("install","movies"):
             name,flag=("gust_pak.exe","--gust") if action=="install" else ("ffmpeg.exe","--ffmpeg")
             path=shutil.which(name) or filedialog.askopenfilename(title="Select / Sélectionner "+name,filetypes=[(name,name)])

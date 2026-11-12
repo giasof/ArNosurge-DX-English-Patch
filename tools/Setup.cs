@@ -32,7 +32,7 @@ internal sealed class PatchSetup : Form {
         for (int row = 0; row < 3; row++) grid.RowStyles.Add(new RowStyle(SizeType.AutoSize));
         grid.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
         AddFolder(grid, 0, "Windows DX folder", game);
-        AddFolder(grid, 1, "US PS3 folder (main patch)", donor);
+        AddFolder(grid, 1, "US Vita Plus folder (PCSE00707)", donor);
         actions.AutoSize = true;
         actions.Dock = DockStyle.Fill;
         AddAction("Check files", "check");
@@ -85,7 +85,7 @@ internal sealed class PatchSetup : Form {
 
     private void Run(string action) {
         if (!Directory.Exists(game.Text) || (action == "install" && !Directory.Exists(donor.Text))) {
-            MessageBox.Show(this, action == "install" ? "Select the Windows DX and US PS3 folders." : "Select the Windows DX folder.", Text);
+            MessageBox.Show(this, action == "install" ? "Select the Windows DX and US Vita Plus folders." : "Select the Windows DX folder.", Text);
             return;
         }
         if (action == "restore" && MessageBox.Show(this, "Restore the original game files from the patch backup?", Text,
@@ -93,7 +93,7 @@ internal sealed class PatchSetup : Form {
         var process = new Process();
         try {
             string args = "-I -B -u -X utf8 install.py " + action + " --game " + QuotePath(game.Text);
-            if (action == "install") args += " --ps3 " + QuotePath(donor.Text);
+            if (action == "install") args += " --vita " + QuotePath(donor.Text);
             process.StartInfo = new ProcessStartInfo {
                 FileName = Path.Combine(root, @"runtime\python.exe"), Arguments = args, WorkingDirectory = root,
                 UseShellExecute = false, CreateNoWindow = true, RedirectStandardOutput = true, RedirectStandardError = true,

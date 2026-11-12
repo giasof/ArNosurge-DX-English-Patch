@@ -65,14 +65,15 @@ def gaps(text):
             clean.extend(piece)
     return bytes(clean), breaks
 
-def dialogue(dx, us, edits):
+def dialogue(dx, us, edits, scene):
+    from vita import dx_line
     original = ebm_rows(dx)
     donor = ebm_rows(us) if us is not None else []
     result = bytearray(struct.pack("<I", len(original)))
     for i, (header, text) in enumerate(original):
         if str(i) in edits:
             use_donor, changes = edits[str(i)]
-            base = donor[i][1] if use_donor else text
+            base = dx_line(scene, i, donor[i][1], text) if use_donor else text
             if changes:
                 chars, marks = gaps(base)
                 marks.update((p, v.encode("ascii")) for p,v in changes)

@@ -30,7 +30,7 @@ def write_entry(archive, entry, destination):
         shutil.copyfileobj(source, target)
 
 def patch_files():
-    files = ["install.py", "patchlib.py", "resources.py", "tutorials.py", "movies.py",
+    files = ["install.py", "patchlib.py", "resources.py", "tutorials.py", "movies.py", "vita.py",
              "Setup.cmd", "README.md", "README.fr.md", "third_party/gust_xml.py",
              "third_party/LICENSE-gust-xml.txt", "third_party/PORTABLE.md",
              "tools/Launcher.cs", "tools/Setup.cs", "tools/write_movie.cpp", "tools/write_movie.exe",
@@ -63,7 +63,7 @@ def build(inputs, output):
                 if not entry.endswith("/") and entry.startswith(("PIL/", "pillow-13.0.0.dist-info/")):
                     write_entry(archive, entry, runtime / entry)
         with pinned(inputs, "gust_tools.zip") as archive:
-            for entry in ("gust_pak.exe", "LICENSE.txt"):
+            for entry in ("gust_pak.exe", "gust_g1t.exe", "LICENSE.txt"):
                 write_entry(archive, entry, stage / "tools/gust" / entry)
         with pinned(inputs, "ffmpeg.zip") as archive:
             for entry in archive.namelist():

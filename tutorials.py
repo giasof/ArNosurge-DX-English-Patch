@@ -93,10 +93,12 @@ def exclusive(n,im):
     frame(im,p)
 
 def shared(n,im,source):
-    # Stamp the authentic English illustration over the same DX backdrop.
-    native=source.resize(im.size,Image.Resampling.LANCZOS)
-    # Some English annotations extend past the inset on both sides.
-    im.paste(native.crop((0,145,1920,934)),(0,145))
+    # Align the Vita inset with the DX frame. Extend both margins from the
+    # same illustration so the frame and the sidebar join at the seams.
+    native=source.resize((1920,1088),Image.Resampling.LANCZOS)
+    im.paste(native.crop((0,0,1920,72)).resize((1920,145),Image.Resampling.LANCZOS),(0,0))
+    im.paste(native.crop((0,72,1920,861)),(0,145))
+    im.paste(native.crop((0,861,1920,1088)).resize((1920,146),Image.Resampling.LANCZOS),(0,934))
     inner=inset(im)
     if n=='tu_comuling2':
         rect(inner,(62,8,249,38),'#17222b');label(inner,(155,22),'Residential Zone · Route 1',12,True,anchor='mm')
@@ -116,6 +118,6 @@ def shared(n,im,source):
         rect(inner,(338,231,361,255),'#132632')
         label(inner,(350,242),'›',16,True,anchor='mm')
         if n.endswith('6'):
-            rect(inner,(207,151,232,181),'#17272c');rect(inner,(300,151,321,181),'#17272c')
-            label(inner,(219,166),'LB',9,True,anchor='mm');label(inner,(311,166),'RB',9,True,anchor='mm')
+            rect(inner,(147,91,168,116),'#17272c');rect(inner,(239,91,263,116),'#17272c')
+            label(inner,(157,104),'LB',9,True,anchor='mm');label(inner,(251,104),'RB',9,True,anchor='mm')
     frame(im,inner)
