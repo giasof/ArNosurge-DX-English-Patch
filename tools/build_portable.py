@@ -30,15 +30,19 @@ def write_entry(archive, entry, destination):
         shutil.copyfileobj(source, target)
 
 def patch_files():
-    files = ["install.py", "patchlib.py", "resources.py", "tutorials.py", "movies.py", "vita.py",
+    files = ["install.py", "patchlib.py", "resources.py", "tutorials.py", "movies.py", "vita.py", "field_text.py", "field_art.py",
              "Setup.cmd", "README.md", "README.fr.md", "third_party/gust_xml.py",
              "third_party/LICENSE-gust-xml.txt", "third_party/PORTABLE.md",
              "tools/Launcher.cs", "tools/Setup.cs", "tools/write_movie.cpp", "tools/write_movie.exe",
              "patch/files.json", "patch/ui.json", "patch/graphics.json", "patch/lines.json.xz", "patch/program.adp",
+             "patch/field-images.json", "patch/field-program.adp", "patch/choices.adp",
              "subtitles/timings.json"]
     files += ["patch/" + row[3] for row in json.loads((ROOT / "patch/ui.json").read_text())]
     files += [f"patch/{name}.blocks.xz" for name in ("mainmenu", "common", "system", "window")]
-    files += [f"subtitles/{name}.ass" for name in ("opening","prologue","seq02","seq03","seq04","seq05","tm_felion_D")]
+    graphics = json.loads((ROOT/"patch/field-images.json").read_text())
+    files += ["patch/" + entry["overlay"] for entry in graphics.values() if "overlay" in entry]
+    game_files = json.loads((ROOT/"patch/files.json").read_text())
+    files += ["subtitles/" + Path(name).stem + ".ass" for name in game_files if name.endswith(".wmv")]
     times = json.loads((ROOT / "subtitles/timings.json").read_text())
     files += [f"subtitles/mask-{name}-{i}.png" for name, spans in times.items() for i in range(len(spans))]
     return files

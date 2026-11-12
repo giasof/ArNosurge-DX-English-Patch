@@ -514,5 +514,47 @@
     "utf-8",
     "5903a058a06a62935ae64be5ca562bc1b8efcf241131ad12d428719852880873",
     "ui-086.adp"
+  ],
+  [
+    "ui/staffroll/uil_staffroll_a.xml",
+    "utf-8",
+    "da4123652fca1c6366e7e6be1fee7dfc2e69f00e984590e7feafd64e7cadc69c",
+    "ui-087.adp"
+  ],
+  [
+    "ui/staffroll/uil_staffroll_b.xml",
+    "utf-8",
+    "3e7eaf374faf1db9f17bfcd7d970783b8d388d7c3d39bef5421d83e021f027b9",
+    "ui-088.adp"
+  ],
+  [
+    "ui/staffroll/uil_staffroll_c.xml",
+    "utf-8",
+    "ab6631a2b9f6c431fbe7e0a0ebbcaebdfb7c29312e29d7cb6a3f43c3d1f58305",
+    "ui-089.adp"
+  ],
+  [
+    "ui/staffroll/uil_staffroll_d.xml",
+    "utf-8",
+    "0e4a18046d99437ae760c182c4b412ef2fd3b971206b1681941700c93cef7ca7",
+    "ui-090.adp"
+  ],
+  [
+    "ui/staffroll/uil_staffroll_e.xml",
+    "utf-8",
+    "60f16f9b834ed5736722706121711465c614b17825e0be96fcb09a578ed6c2ae",
+    "ui-091.adp"
+  ],
+  [
+    "ui/staffroll/uil_preset_names.xml",
+    "utf-8",
+    "d9dc558de31d5e51af5526d0b4fc959c23e51404530c40d6c6295e1064af4361",
+    "ui-092.adp"
+  ],
+  [
+    "ui/_menu_templates/uil_mt_balloon_select.xml",
+    "utf-8",
+    "52157a0f0628f85ef892d3fa43d86ccdd49eb0f928c0d14e20e0ce73a5099e36",
+    "ui-093.adp"
   ]
 ]

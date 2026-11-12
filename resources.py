@@ -22,6 +22,8 @@ def archive(package, target, donor, tool):
         d=Path(folder)
         local=unpack(tool,package,d)
         if package.stem.upper()=="PACK01":
+            from field_text import CHOICES
+            (d/CHOICES).write_bytes(apply_delta(donor.read(CHOICES),(PATCH/"choices.adp").read_bytes()))
             edits=json.loads(lzma.decompress((PATCH/"lines.json.xz").read_bytes()))
             for rel,(original,rules) in edits.items():
                 src=donor.read("event/event/"+rel) if original else None

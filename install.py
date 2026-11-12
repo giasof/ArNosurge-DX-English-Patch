@@ -14,10 +14,11 @@ from resources import PATCH, archive, graphics, launcher, manifest, require_hash
 FILES = manifest("files.json")
 BACKUP = "ArnosurgeDX-patch-backup"
 GRAPHICS = "Data/PACK00_01.PAK"
+GRAPHICS_RECEIPT = "vita-graphics-v140.json"
 
 def needs_update(folder, rel, installed_hash):
     if rel == GRAPHICS:
-        marker = folder / "vita-graphics.json"
+        marker = folder / GRAPHICS_RECEIPT
         return not marker.exists() or json.loads(marker.read_text("utf8")) != installed_hash
     return installed_hash in FILES[rel].get("previous", [])
 
@@ -94,14 +95,19 @@ def program(arg,name):
 
 def prepare(a,rel,original,target,root,stage):
     if rel=="ArnosurgeDX.exe":
-        target.write_bytes(apply_delta(original.read_bytes(),(PATCH/"program.adp").read_bytes()))
+        from field_text import program_source
+        program = apply_delta(original.read_bytes(), (PATCH/"program.adp").read_bytes())
+        target.write_bytes(apply_delta(program_source(program, root), (PATCH/"field-program.adp").read_bytes()))
     elif rel.endswith("_Launcher.exe"):
         launcher(target)
     elif rel.endswith("_Env.exe"):
         launch=stage/"ArnosurgeDX_Launcher.exe"
         if launch.exists():shutil.copyfile(launch,target)
         else:launcher(target)
-    elif rel==GRAPHICS:graphics(original,target,root,a.texture_tool)
+    elif rel==GRAPHICS:
+        from field_art import field_graphics
+        graphics(original,target,root,a.texture_tool)
+        field_graphics(original,target,root,a.texture_tool)
     elif rel.endswith(".PAK"):archive(original,target,root,a.gust)
     else:
         from movies import render
@@ -142,6 +148,7 @@ def main(a):
         if a.action=="restore":
             if active:restore(a.game,folder,active,active.copy())
             (folder/"vita-graphics.json").unlink(missing_ok=True)
+            (folder/GRAPHICS_RECEIPT).unlink(missing_ok=True)
             print("Original files restored.");return 0
         needed=[]
         for rel in relevant:
@@ -185,7 +192,7 @@ def main(a):
                     require_hash(target,active.get(rel,FILES[rel]["original"]))
                     os.replace(stage/rel,target);require_hash(target,new)
                 write_json(folder/"installed.json",dict(active,**changed))
-                if GRAPHICS in changed:write_json(folder/"vita-graphics.json",changed[GRAPHICS])
+                if GRAPHICS in changed:write_json(folder/GRAPHICS_RECEIPT,changed[GRAPHICS])
                 (folder/"pending.json").unlink()
             except BaseException:
                 restore(a.game,folder,active,changed);raise

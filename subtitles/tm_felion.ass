@@ -1,0 +1,662 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Segoe UI,39,&H00FFFFFF,&H00FFFFFF,&H00192430,&H50101010,-1,0,0,0,100,100,0,0,1,2,1,2,18,18,28,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.35,0:00:03.39,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&HE3&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.35,0:00:03.39,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&HE3&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.39,0:00:03.42,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&HC6&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.39,0:00:03.42,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&HC6&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.42,0:00:03.45,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&HAA&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.42,0:00:03.45,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&HAA&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.45,0:00:03.49,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H8E&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.45,0:00:03.49,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H8E&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.49,0:00:03.52,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H71&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.49,0:00:03.52,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H71&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.52,0:00:03.55,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H55&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.52,0:00:03.55,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H55&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.55,0:00:03.59,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H39&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.55,0:00:03.59,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H39&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.59,0:00:03.62,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H1C&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.59,0:00:03.62,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H1C&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.62,0:00:03.65,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.62,0:00:03.65,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.65,0:00:03.69,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.65,0:00:03.69,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.69,0:00:03.72,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.69,0:00:03.72,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.72,0:00:03.75,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.72,0:00:03.75,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.75,0:00:03.79,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.75,0:00:03.79,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.79,0:00:03.82,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.79,0:00:03.82,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.82,0:00:03.85,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.82,0:00:03.85,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.85,0:00:03.89,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.85,0:00:03.89,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.89,0:00:03.92,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.89,0:00:03.92,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.92,0:00:03.95,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.92,0:00:03.95,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.95,0:00:03.99,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.95,0:00:03.99,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:03.99,0:00:04.02,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:03.99,0:00:04.02,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.02,0:00:04.05,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.02,0:00:04.05,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.05,0:00:04.09,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.05,0:00:04.09,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.09,0:00:04.12,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.09,0:00:04.12,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.12,0:00:04.15,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.12,0:00:04.15,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.15,0:00:04.19,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.15,0:00:04.19,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.19,0:00:04.22,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.19,0:00:04.22,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.22,0:00:04.25,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.22,0:00:04.25,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.25,0:00:04.29,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.25,0:00:04.29,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.29,0:00:04.32,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.29,0:00:04.32,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.32,0:00:04.35,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.32,0:00:04.35,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.35,0:00:04.39,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.35,0:00:04.39,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.39,0:00:04.42,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.39,0:00:04.42,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.42,0:00:04.45,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.42,0:00:04.45,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.45,0:00:04.49,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.45,0:00:04.49,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.49,0:00:04.52,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.49,0:00:04.52,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.52,0:00:04.55,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.52,0:00:04.55,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.55,0:00:04.59,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.55,0:00:04.59,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.59,0:00:04.62,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.59,0:00:04.62,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.62,0:00:04.65,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.62,0:00:04.65,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.65,0:00:04.69,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.65,0:00:04.69,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.69,0:00:04.72,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.69,0:00:04.72,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.72,0:00:04.75,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.72,0:00:04.75,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.75,0:00:04.79,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.75,0:00:04.79,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.79,0:00:04.82,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.79,0:00:04.82,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.82,0:00:04.85,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.82,0:00:04.85,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.85,0:00:04.89,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.85,0:00:04.89,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.89,0:00:04.92,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.89,0:00:04.92,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.92,0:00:04.95,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.92,0:00:04.95,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.95,0:00:04.99,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.95,0:00:04.99,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:04.99,0:00:05.02,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:04.99,0:00:05.02,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.02,0:00:05.05,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.02,0:00:05.05,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.05,0:00:05.09,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.05,0:00:05.09,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.09,0:00:05.12,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.09,0:00:05.12,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.12,0:00:05.15,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.12,0:00:05.15,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.15,0:00:05.19,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.15,0:00:05.19,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.19,0:00:05.22,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.19,0:00:05.22,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.22,0:00:05.25,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.22,0:00:05.25,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.25,0:00:05.29,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.25,0:00:05.29,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.29,0:00:05.32,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.29,0:00:05.32,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.32,0:00:05.36,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.32,0:00:05.36,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.36,0:00:05.39,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.36,0:00:05.39,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.39,0:00:05.42,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.39,0:00:05.42,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.42,0:00:05.46,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.42,0:00:05.46,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.46,0:00:05.49,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.46,0:00:05.49,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.49,0:00:05.52,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.49,0:00:05.52,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.52,0:00:05.56,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.52,0:00:05.56,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.56,0:00:05.59,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.56,0:00:05.59,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.59,0:00:05.62,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.59,0:00:05.62,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.62,0:00:05.66,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.62,0:00:05.66,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.66,0:00:05.69,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.66,0:00:05.69,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.69,0:00:05.72,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.69,0:00:05.72,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.72,0:00:05.76,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.72,0:00:05.76,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.76,0:00:05.79,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.76,0:00:05.79,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.79,0:00:05.82,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.79,0:00:05.82,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.82,0:00:05.86,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.82,0:00:05.86,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.86,0:00:05.89,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.86,0:00:05.89,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.89,0:00:05.92,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.89,0:00:05.92,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.92,0:00:05.96,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.92,0:00:05.96,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.96,0:00:05.99,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.96,0:00:05.99,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:05.99,0:00:06.02,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:05.99,0:00:06.02,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.02,0:00:06.06,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.02,0:00:06.06,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.06,0:00:06.09,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.06,0:00:06.09,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.09,0:00:06.12,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.09,0:00:06.12,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.12,0:00:06.16,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.12,0:00:06.16,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.16,0:00:06.19,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.16,0:00:06.19,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.19,0:00:06.22,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.19,0:00:06.22,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.22,0:00:06.26,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.22,0:00:06.26,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.26,0:00:06.29,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.26,0:00:06.29,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.29,0:00:06.32,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.29,0:00:06.32,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.32,0:00:06.36,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.32,0:00:06.36,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.36,0:00:06.39,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.36,0:00:06.39,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.39,0:00:06.42,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.39,0:00:06.42,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.42,0:00:06.46,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.42,0:00:06.46,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.46,0:00:06.49,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.46,0:00:06.49,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.49,0:00:06.52,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.49,0:00:06.52,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.52,0:00:06.56,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.52,0:00:06.56,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.56,0:00:06.59,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.56,0:00:06.59,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.59,0:00:06.62,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.59,0:00:06.62,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.62,0:00:06.66,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.62,0:00:06.66,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.66,0:00:06.69,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.66,0:00:06.69,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.69,0:00:06.72,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.69,0:00:06.72,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.72,0:00:06.76,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.72,0:00:06.76,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.76,0:00:06.79,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.76,0:00:06.79,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.79,0:00:06.82,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.79,0:00:06.82,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.82,0:00:06.86,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.82,0:00:06.86,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.86,0:00:06.89,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.86,0:00:06.89,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.89,0:00:06.92,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.89,0:00:06.92,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.92,0:00:06.96,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.92,0:00:06.96,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.96,0:00:06.99,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.96,0:00:06.99,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:06.99,0:00:07.02,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:06.99,0:00:07.02,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.02,0:00:07.06,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.02,0:00:07.06,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.06,0:00:07.09,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.06,0:00:07.09,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.09,0:00:07.12,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.09,0:00:07.12,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.12,0:00:07.16,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.12,0:00:07.16,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.16,0:00:07.19,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.16,0:00:07.19,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.19,0:00:07.22,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.19,0:00:07.22,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.22,0:00:07.26,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.22,0:00:07.26,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.26,0:00:07.29,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.26,0:00:07.29,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.29,0:00:07.32,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.29,0:00:07.32,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.32,0:00:07.36,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.32,0:00:07.36,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.36,0:00:07.39,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.36,0:00:07.39,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.39,0:00:07.42,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.39,0:00:07.42,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.42,0:00:07.46,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.42,0:00:07.46,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.46,0:00:07.49,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.46,0:00:07.49,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.49,0:00:07.52,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.49,0:00:07.52,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.52,0:00:07.56,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.52,0:00:07.56,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.56,0:00:07.59,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.56,0:00:07.59,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.59,0:00:07.62,Caption,,0,0,0,,{\an7\pos(425,606)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1100 0 1100 60 0 60
+Dialogue: 1,0:00:07.59,0:00:07.62,Caption,,0,0,0,,{\an5\pos(975,636)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.62,0:00:07.66,Caption,,0,0,0,,{\an7\pos(413,616)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1094 0 1094 60 0 60
+Dialogue: 1,0:00:07.62,0:00:07.66,Caption,,0,0,0,,{\an5\pos(960,646)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.66,0:00:07.69,Caption,,0,0,0,,{\an7\pos(402,627)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1088 0 1088 59 0 59
+Dialogue: 1,0:00:07.66,0:00:07.69,Caption,,0,0,0,,{\an5\pos(946,656)\fs34\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.69,0:00:07.72,Caption,,0,0,0,,{\an7\pos(390,636)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1082 0 1082 59 0 59
+Dialogue: 1,0:00:07.69,0:00:07.72,Caption,,0,0,0,,{\an5\pos(931,665)\fs33\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.72,0:00:07.76,Caption,,0,0,0,,{\an7\pos(379,646)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1077 0 1077 59 0 59
+Dialogue: 1,0:00:07.72,0:00:07.76,Caption,,0,0,0,,{\an5\pos(917,675)\fs33\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.76,0:00:07.79,Caption,,0,0,0,,{\an7\pos(367,656)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1071 0 1071 58 0 58
+Dialogue: 1,0:00:07.76,0:00:07.79,Caption,,0,0,0,,{\an5\pos(902,685)\fs33\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.79,0:00:07.82,Caption,,0,0,0,,{\an7\pos(356,666)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1065 0 1065 58 0 58
+Dialogue: 1,0:00:07.79,0:00:07.82,Caption,,0,0,0,,{\an5\pos(888,695)\fs33\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.82,0:00:07.86,Caption,,0,0,0,,{\an7\pos(344,676)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1059 0 1059 58 0 58
+Dialogue: 1,0:00:07.82,0:00:07.86,Caption,,0,0,0,,{\an5\pos(873,705)\fs33\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.86,0:00:07.89,Caption,,0,0,0,,{\an7\pos(333,687)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1053 0 1053 57 0 57
+Dialogue: 1,0:00:07.86,0:00:07.89,Caption,,0,0,0,,{\an5\pos(859,715)\fs33\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.89,0:00:07.92,Caption,,0,0,0,,{\an7\pos(321,696)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1047 0 1047 57 0 57
+Dialogue: 1,0:00:07.89,0:00:07.92,Caption,,0,0,0,,{\an5\pos(844,724)\fs32\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.92,0:00:07.96,Caption,,0,0,0,,{\an7\pos(310,706)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1041 0 1041 57 0 57
+Dialogue: 1,0:00:07.92,0:00:07.96,Caption,,0,0,0,,{\an5\pos(830,734)\fs32\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.96,0:00:07.99,Caption,,0,0,0,,{\an7\pos(298,716)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1035 0 1035 56 0 56
+Dialogue: 1,0:00:07.96,0:00:07.99,Caption,,0,0,0,,{\an5\pos(815,744)\fs32\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:07.99,0:00:08.02,Caption,,0,0,0,,{\an7\pos(285,726)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1030 0 1030 56 0 56
+Dialogue: 1,0:00:07.99,0:00:08.02,Caption,,0,0,0,,{\an5\pos(800,754)\fs32\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.02,0:00:08.06,Caption,,0,0,0,,{\an7\pos(274,736)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1024 0 1024 56 0 56
+Dialogue: 1,0:00:08.02,0:00:08.06,Caption,,0,0,0,,{\an5\pos(786,764)\fs32\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.06,0:00:08.09,Caption,,0,0,0,,{\an7\pos(262,745)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1018 0 1018 56 0 56
+Dialogue: 1,0:00:08.06,0:00:08.09,Caption,,0,0,0,,{\an5\pos(771,773)\fs31\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.09,0:00:08.12,Caption,,0,0,0,,{\an7\pos(251,756)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1012 0 1012 55 0 55
+Dialogue: 1,0:00:08.09,0:00:08.12,Caption,,0,0,0,,{\an5\pos(757,783)\fs31\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.12,0:00:08.16,Caption,,0,0,0,,{\an7\pos(239,766)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1006 0 1006 55 0 55
+Dialogue: 1,0:00:08.12,0:00:08.16,Caption,,0,0,0,,{\an5\pos(742,793)\fs31\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.16,0:00:08.19,Caption,,0,0,0,,{\an7\pos(228,776)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 1000 0 1000 55 0 55
+Dialogue: 1,0:00:08.16,0:00:08.19,Caption,,0,0,0,,{\an5\pos(728,803)\fs31\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.19,0:00:08.22,Caption,,0,0,0,,{\an7\pos(216,786)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 994 0 994 54 0 54
+Dialogue: 1,0:00:08.19,0:00:08.22,Caption,,0,0,0,,{\an5\pos(713,813)\fs31\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.22,0:00:08.26,Caption,,0,0,0,,{\an7\pos(205,796)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 989 0 989 54 0 54
+Dialogue: 1,0:00:08.22,0:00:08.26,Caption,,0,0,0,,{\an5\pos(699,823)\fs31\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.26,0:00:08.29,Caption,,0,0,0,,{\an7\pos(193,805)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 983 0 983 54 0 54
+Dialogue: 1,0:00:08.26,0:00:08.29,Caption,,0,0,0,,{\an5\pos(684,832)\fs30\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.29,0:00:08.32,Caption,,0,0,0,,{\an7\pos(182,816)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 977 0 977 53 0 53
+Dialogue: 1,0:00:08.29,0:00:08.32,Caption,,0,0,0,,{\an5\pos(670,842)\fs30\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.32,0:00:08.36,Caption,,0,0,0,,{\an7\pos(170,826)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 971 0 971 53 0 53
+Dialogue: 1,0:00:08.32,0:00:08.36,Caption,,0,0,0,,{\an5\pos(655,852)\fs30\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.36,0:00:08.39,Caption,,0,0,0,,{\an7\pos(158,836)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 965 0 965 53 0 53
+Dialogue: 1,0:00:08.36,0:00:08.39,Caption,,0,0,0,,{\an5\pos(640,862)\fs30\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.39,0:00:08.42,Caption,,0,0,0,,{\an7\pos(147,846)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 959 0 959 52 0 52
+Dialogue: 1,0:00:08.39,0:00:08.42,Caption,,0,0,0,,{\an5\pos(626,872)\fs30\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.42,0:00:08.46,Caption,,0,0,0,,{\an7\pos(135,855)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 953 0 953 52 0 52
+Dialogue: 1,0:00:08.42,0:00:08.46,Caption,,0,0,0,,{\an5\pos(611,881)\fs29\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.46,0:00:08.49,Caption,,0,0,0,,{\an7\pos(124,865)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 947 0 947 52 0 52
+Dialogue: 1,0:00:08.46,0:00:08.49,Caption,,0,0,0,,{\an5\pos(597,891)\fs29\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.49,0:00:08.52,Caption,,0,0,0,,{\an7\pos(111,876)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 942 0 942 51 0 51
+Dialogue: 1,0:00:08.49,0:00:08.52,Caption,,0,0,0,,{\an5\pos(582,901)\fs29\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.52,0:00:08.56,Caption,,0,0,0,,{\an7\pos(100,886)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 936 0 936 51 0 51
+Dialogue: 1,0:00:08.52,0:00:08.56,Caption,,0,0,0,,{\an5\pos(568,911)\fs29\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.56,0:00:08.59,Caption,,0,0,0,,{\an7\pos(88,896)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 930 0 930 51 0 51
+Dialogue: 1,0:00:08.56,0:00:08.59,Caption,,0,0,0,,{\an5\pos(553,921)\fs29\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.59,0:00:08.62,Caption,,0,0,0,,{\an7\pos(77,906)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 924 0 924 50 0 50
+Dialogue: 1,0:00:08.59,0:00:08.62,Caption,,0,0,0,,{\an5\pos(539,931)\fs29\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.62,0:00:08.66,Caption,,0,0,0,,{\an7\pos(65,915)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 918 0 918 50 0 50
+Dialogue: 1,0:00:08.62,0:00:08.66,Caption,,0,0,0,,{\an5\pos(524,940)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.66,0:00:08.69,Caption,,0,0,0,,{\an7\pos(54,925)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 912 0 912 50 0 50
+Dialogue: 1,0:00:08.66,0:00:08.69,Caption,,0,0,0,,{\an5\pos(510,950)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.69,0:00:08.72,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:08.69,0:00:08.72,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.72,0:00:08.76,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:08.72,0:00:08.76,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.76,0:00:08.79,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:08.76,0:00:08.79,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.79,0:00:08.82,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:08.79,0:00:08.82,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.82,0:00:08.86,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:08.82,0:00:08.86,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.86,0:00:08.89,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:08.86,0:00:08.89,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.89,0:00:08.92,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:08.89,0:00:08.92,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.92,0:00:08.96,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:08.92,0:00:08.96,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.96,0:00:08.99,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:08.96,0:00:08.99,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:08.99,0:00:09.02,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:08.99,0:00:09.02,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.02,0:00:09.06,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.02,0:00:09.06,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.06,0:00:09.09,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.06,0:00:09.09,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.09,0:00:09.13,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.09,0:00:09.13,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.13,0:00:09.16,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.13,0:00:09.16,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.16,0:00:09.19,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.16,0:00:09.19,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.19,0:00:09.23,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.19,0:00:09.23,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.23,0:00:09.26,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.23,0:00:09.26,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.26,0:00:09.29,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.26,0:00:09.29,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.29,0:00:09.33,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.29,0:00:09.33,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.33,0:00:09.36,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.33,0:00:09.36,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.36,0:00:09.39,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.36,0:00:09.39,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.39,0:00:09.43,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.39,0:00:09.43,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.43,0:00:09.46,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.43,0:00:09.46,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.46,0:00:09.49,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.46,0:00:09.49,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.49,0:00:09.53,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.49,0:00:09.53,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.53,0:00:09.56,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.53,0:00:09.56,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.56,0:00:09.59,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.56,0:00:09.59,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.59,0:00:09.63,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.59,0:00:09.63,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.63,0:00:09.66,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.63,0:00:09.66,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.66,0:00:09.69,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.66,0:00:09.69,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.69,0:00:09.73,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.69,0:00:09.73,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.73,0:00:09.76,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.73,0:00:09.76,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.76,0:00:09.79,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.76,0:00:09.79,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.79,0:00:09.83,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.79,0:00:09.83,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.83,0:00:09.86,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.83,0:00:09.86,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.86,0:00:09.89,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.86,0:00:09.89,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.89,0:00:09.93,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.89,0:00:09.93,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.93,0:00:09.96,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.93,0:00:09.96,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.96,0:00:09.99,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.96,0:00:09.99,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:09.99,0:00:10.03,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:09.99,0:00:10.03,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.03,0:00:10.06,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.03,0:00:10.06,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.06,0:00:10.09,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.06,0:00:10.09,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.09,0:00:10.13,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.09,0:00:10.13,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.13,0:00:10.16,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.13,0:00:10.16,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.16,0:00:10.19,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.16,0:00:10.19,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.19,0:00:10.23,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.19,0:00:10.23,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.23,0:00:10.26,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.23,0:00:10.26,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.26,0:00:10.29,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.26,0:00:10.29,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.29,0:00:10.33,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.29,0:00:10.33,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.33,0:00:10.36,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.33,0:00:10.36,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.36,0:00:10.39,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.36,0:00:10.39,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.39,0:00:10.43,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.39,0:00:10.43,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.43,0:00:10.46,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.43,0:00:10.46,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.46,0:00:10.49,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.46,0:00:10.49,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.49,0:00:10.53,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.49,0:00:10.53,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.53,0:00:10.56,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.53,0:00:10.56,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.56,0:00:10.59,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.56,0:00:10.59,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.59,0:00:10.63,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.59,0:00:10.63,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.63,0:00:10.66,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.63,0:00:10.66,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.66,0:00:10.69,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.66,0:00:10.69,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.69,0:00:10.73,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.69,0:00:10.73,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.73,0:00:10.76,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.73,0:00:10.76,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.76,0:00:10.79,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.76,0:00:10.79,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.79,0:00:10.83,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.79,0:00:10.83,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.83,0:00:10.86,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.83,0:00:10.86,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.86,0:00:10.89,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.86,0:00:10.89,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.89,0:00:10.93,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.89,0:00:10.93,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.93,0:00:10.96,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.93,0:00:10.96,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.96,0:00:10.99,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.96,0:00:10.99,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:10.99,0:00:11.03,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:10.99,0:00:11.03,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.03,0:00:11.06,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.03,0:00:11.06,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.06,0:00:11.09,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.06,0:00:11.09,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.09,0:00:11.13,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.09,0:00:11.13,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.13,0:00:11.16,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.13,0:00:11.16,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.16,0:00:11.19,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.16,0:00:11.19,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.19,0:00:11.23,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.19,0:00:11.23,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.23,0:00:11.26,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.23,0:00:11.26,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.26,0:00:11.29,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.26,0:00:11.29,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.29,0:00:11.33,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.29,0:00:11.33,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.33,0:00:11.36,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.33,0:00:11.36,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.36,0:00:11.39,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.36,0:00:11.39,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.39,0:00:11.43,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.39,0:00:11.43,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.43,0:00:11.46,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.43,0:00:11.46,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.46,0:00:11.49,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.46,0:00:11.49,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.49,0:00:11.53,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.49,0:00:11.53,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.53,0:00:11.56,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.53,0:00:11.56,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.56,0:00:11.59,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.56,0:00:11.59,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.59,0:00:11.63,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.59,0:00:11.63,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.63,0:00:11.66,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.63,0:00:11.66,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.66,0:00:11.69,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.66,0:00:11.69,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.69,0:00:11.73,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.69,0:00:11.73,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.73,0:00:11.76,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.73,0:00:11.76,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.76,0:00:11.79,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.76,0:00:11.79,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.79,0:00:11.83,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.79,0:00:11.83,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.83,0:00:11.86,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.83,0:00:11.86,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.86,0:00:11.89,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.86,0:00:11.89,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.89,0:00:11.93,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.89,0:00:11.93,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.93,0:00:11.96,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.93,0:00:11.96,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.96,0:00:11.99,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.96,0:00:11.99,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:11.99,0:00:12.03,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:11.99,0:00:12.03,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.03,0:00:12.06,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.03,0:00:12.06,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.06,0:00:12.10,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.06,0:00:12.10,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.10,0:00:12.13,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.10,0:00:12.13,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.13,0:00:12.16,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.13,0:00:12.16,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.16,0:00:12.20,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.16,0:00:12.20,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.20,0:00:12.23,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.20,0:00:12.23,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.23,0:00:12.26,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.23,0:00:12.26,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.26,0:00:12.30,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.26,0:00:12.30,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.30,0:00:12.33,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.30,0:00:12.33,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.33,0:00:12.36,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.33,0:00:12.36,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.36,0:00:12.40,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.36,0:00:12.40,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.40,0:00:12.43,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.40,0:00:12.43,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.43,0:00:12.46,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.43,0:00:12.46,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.46,0:00:12.50,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.46,0:00:12.50,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.50,0:00:12.53,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.50,0:00:12.53,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.53,0:00:12.56,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.53,0:00:12.56,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.56,0:00:12.60,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.56,0:00:12.60,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.60,0:00:12.63,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.60,0:00:12.63,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.63,0:00:12.66,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.63,0:00:12.66,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.66,0:00:12.70,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.66,0:00:12.70,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.70,0:00:12.73,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.70,0:00:12.73,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.73,0:00:12.76,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.73,0:00:12.76,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.76,0:00:12.80,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.76,0:00:12.80,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.80,0:00:12.83,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.80,0:00:12.83,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.83,0:00:12.86,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.83,0:00:12.86,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.86,0:00:12.90,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.86,0:00:12.90,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.90,0:00:12.93,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.90,0:00:12.93,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.93,0:00:12.96,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.93,0:00:12.96,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:12.96,0:00:13.00,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:12.96,0:00:13.00,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.00,0:00:13.03,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.00,0:00:13.03,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.03,0:00:13.06,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.03,0:00:13.06,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.06,0:00:13.10,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.06,0:00:13.10,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.10,0:00:13.13,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.10,0:00:13.13,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.13,0:00:13.16,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.13,0:00:13.16,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.16,0:00:13.20,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.16,0:00:13.20,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.20,0:00:13.23,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.20,0:00:13.23,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.23,0:00:13.26,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H00&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.23,0:00:13.26,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H00&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.26,0:00:13.30,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H08&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.26,0:00:13.30,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H08&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.30,0:00:13.33,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H11&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.30,0:00:13.33,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H11&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.33,0:00:13.36,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H19&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.33,0:00:13.36,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H19&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.36,0:00:13.40,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H22&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.36,0:00:13.40,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H22&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.40,0:00:13.43,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H2A&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.40,0:00:13.43,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H2A&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.43,0:00:13.46,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H33&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.43,0:00:13.46,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H33&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.46,0:00:13.50,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H3B&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.46,0:00:13.50,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H3B&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.50,0:00:13.53,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H44&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.50,0:00:13.53,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H44&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.53,0:00:13.56,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H4D&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.53,0:00:13.56,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H4D&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.56,0:00:13.60,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H55&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.56,0:00:13.60,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H55&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.60,0:00:13.63,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H5E&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.60,0:00:13.63,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H5E&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.63,0:00:13.66,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H66&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.63,0:00:13.66,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H66&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.66,0:00:13.70,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H6E&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.66,0:00:13.70,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H6E&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.70,0:00:13.73,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H77&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.70,0:00:13.73,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H77&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.73,0:00:13.76,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H80&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.73,0:00:13.76,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H80&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.76,0:00:13.80,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H88&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.76,0:00:13.80,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H88&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.80,0:00:13.83,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H90&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.80,0:00:13.83,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H90&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.83,0:00:13.86,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&H99&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.83,0:00:13.86,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&H99&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.86,0:00:13.90,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&HA2&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.86,0:00:13.90,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&HA2&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.90,0:00:13.93,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&HAA&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.90,0:00:13.93,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&HAA&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.93,0:00:13.96,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&HB2&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.93,0:00:13.96,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&HB2&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:13.96,0:00:14.00,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&HBB&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:13.96,0:00:14.00,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&HBB&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:14.00,0:00:14.03,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&HC3&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:14.00,0:00:14.03,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&HC3&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:14.03,0:00:14.06,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&HCC&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:14.03,0:00:14.06,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&HCC&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:14.06,0:00:14.10,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&HD4&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:14.06,0:00:14.10,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&HD4&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:14.10,0:00:14.13,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&HDD&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:14.10,0:00:14.13,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&HDD&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:14.13,0:00:14.16,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&HE6&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:14.13,0:00:14.16,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&HE6&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:14.16,0:00:14.20,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&HEE&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:14.16,0:00:14.20,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&HEE&}Tenmon Central Control Residential District of Felion
+Dialogue: 0,0:00:14.20,0:00:14.23,Caption,,0,0,0,,{\an7\pos(42,936)\bord0\shad0\alpha&HF6&\1c&H31251C&\p1}m 0 0 l 906 0 906 49 0 49
+Dialogue: 1,0:00:14.20,0:00:14.23,Caption,,0,0,0,,{\an5\pos(495,960)\fs28\bord0\shad0\alpha&HF6&}Tenmon Central Control Residential District of Felion
