@@ -4,6 +4,10 @@ An unofficial English localization patch for **Ar nosurge: Ode to an Unborn Star
 
 **[Download the portable Windows x64 ZIP](https://github.com/giasof/ArNosurge-DX-English-Patch/releases/latest/download/ArNosurge-DX-English-Patch-Windows-x64.zip)** · [Instructions en français](README.fr.md)
 
+## Recommended CPU fix
+
+If CPU usage reaches 100% during 3D scenes, we recommend Kanadeforever’s optional `CPUFix.asi` for Ar nosurge DX. You can download it separately from the creator’s project. [ArNosurgePCFix](https://github.com/Kanadeforever/ArNosurgePCFix) · [Official releases](https://github.com/Kanadeforever/ArNosurgePCFix/releases)
+
 ## Before you start
 
 You need a compatible Japanese Windows installation of DX and a readable US Vita copy of **Ar nosurge Plus** (PCSE00707). Select the Vita folder containing `Data/PSVita/resources1.psarc`, or the folder containing the archive itself. An installed Vita3K app can be found under `ux0/app/PCSE00707` in its storage folder. Setup checks the archive before building any game files. Encrypted Vita backups must first be exported in readable form. The optional movie installer reads the original DX videos.

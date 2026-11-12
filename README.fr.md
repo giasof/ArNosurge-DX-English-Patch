@@ -13,6 +13,10 @@ L’installateur sauvegarde les fichiers d’origine dans `ArnosurgeDX-patch-bac
 
 Si tu as déjà installé ton jeu dans Vita3K, tu trouveras son dossier sous `ux0/app/PCSE00707` dans le stockage de l’émulateur. Setup vérifie l’empreinte de l’archive. Si ta sauvegarde de cartouche ou du jeu numérique est encore chiffrée, prépare d’abord une copie lisible.
 
+## Correctif CPU recommandé
+
+Si l’utilisation du processeur atteint 100 % pendant les scènes 3D, nous recommandons `CPUFix.asi`, le correctif facultatif de Kanadeforever pour Ar nosurge DX. Tu peux le télécharger séparément sur la page du créateur. [ArNosurgePCFix](https://github.com/Kanadeforever/ArNosurgePCFix) · [Téléchargements officiels](https://github.com/Kanadeforever/ArNosurgePCFix/releases)
+
 ## Version 1.4.0
 
 - Les 1 790 choix de conversation sont en anglais, ainsi que 1 428 entrées de dialogue des habitants. Les fenêtres et les retours à la ligne sont adaptés à ces textes.
